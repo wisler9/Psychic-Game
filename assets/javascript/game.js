@@ -5,8 +5,7 @@ var winsText = document.getElementById("winsText");
 var losesText = document.getElementById("losesText");
 var guessesText = document.getElementById("guessesText");
 
-// Initialize variables 
-
+// Initializing variables 
 var wins = 0;
 var loses = 0;
 var counter = 0
@@ -56,7 +55,6 @@ document.onkeyup = function (event) {
     }
 
     // var collectionOfLetters = [];
-
     collectionOfLetters.push(pressedKey);
 
     inputText.textContent = "You chose: " + collectionOfLetters;
